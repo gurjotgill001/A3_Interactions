@@ -161,14 +161,14 @@ nav ul li a:hover{
 	position: flex;
 	background:#f99a34;
 	margin:15px 90px;
-	color:white;
+	color:black;
 	padding:10px;
 	text-decoration:none;
 }
 
 .orders button:hover{
 	color:white;
-	background: green;
+	background: #008000;
 }
 #background::after{
 	display:table;
