@@ -163,6 +163,10 @@ nav ul li a:hover{
 	padding:10px;
 	text-decoration:none;
 }
+.orders p:hover{
+	color:white;
+	background: green;
+}
 #background::after{
 	display:table;
 	content:"";
@@ -209,7 +213,7 @@ nav ul li a:hover{
 	border: 3px solid #000;
 }
 .sub_menu:hover{
-	opacity: .7;
+	opacity: .6;
 }
 .sub_menu p{
 	text-align: center;
