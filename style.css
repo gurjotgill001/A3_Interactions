@@ -155,15 +155,18 @@ nav ul li a:hover{
 	width:100%;
 	height:300px;
 }
-.orders p{
+.orders button{
 	width:35%;
+	align-items: center;
+	position: flex;
 	background:#f99a34;
-	margin:15px auto;
-	color:#000;
+	margin:15px 90px;
+	color:white;
 	padding:10px;
 	text-decoration:none;
 }
-.orders p:hover{
+
+.orders button:hover{
 	color:white;
 	background: green;
 }

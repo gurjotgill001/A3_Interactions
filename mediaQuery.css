@@ -41,9 +41,12 @@
 		border:none;
 		margin:5px 0;
 	}
-	.orders p{
+	.orders button{
 		text-align:center;
 		padding:5px auto;
+        margin: 15px 0px;
+        width:100%;
+
 	}
     .orders img{
         width:80%;
@@ -79,9 +82,11 @@
 		border:none;
 		margin:5px 0;
 	}
-	.orders p{
+	.orders button{
 		text-align:center;
 		padding:5px auto;
+        width:100%;
+        margin: 15px 0px;   
 	}
     .features{
         font-size: 14pt;
