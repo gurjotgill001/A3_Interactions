@@ -67,6 +67,31 @@ nav ul li a:hover{
 	color: #000;
 	border-radius: 10px;
 }
+@keyframes move {
+	0% {right: 0%; }
+	25% { right: 100%; }
+	50% { right: 200%; }
+	75% { right: 300%; }
+	100% { right: 400%; }
+}
+div#slider{ 
+	overflow: hidden; 
+	height: 475px; 
+	margin-bottom:35px;
+	margin-top: 5px;
+}
+div#slider figure img{ 
+	width: 20%; 
+	float: right; 
+	height: 475px;
+ }
+div#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	right: 0;
+	animation: 15s move infinite;
+}
 
 #top{
 	width:100%;
@@ -169,6 +194,7 @@ nav ul li a:hover{
 .orders button:hover{
 	color:white;
 	background: #008000;
+	box-shadow: 10px 10px 15px #949494;
 }
 #background::after{
 	display:table;
@@ -217,6 +243,7 @@ nav ul li a:hover{
 }
 .sub_menu:hover{
 	opacity: .6;
+	box-shadow: 10px 5px 15px #949494;
 }
 .sub_menu p{
 	text-align: center;
